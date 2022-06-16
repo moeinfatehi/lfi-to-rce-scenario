@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    container_name: lfi-to-rce
+    container_name: lfi-to-rce-scenario
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,4 +9,4 @@ services:
       - 9005:80
     volumes:
        - ./src/:/var/www/html/
-    image: moeinfatehi/lfi-to-rce:latest
+    image: moeinfatehi/lfi-to-rce-scenario:latest

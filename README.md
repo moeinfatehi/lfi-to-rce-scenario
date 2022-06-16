@@ -1,5 +1,5 @@
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/moeinfatehi/lfi-to-rce)
-![Docker Pulls](https://img.shields.io/docker/pulls/moeinfatehi/lfi-to-rce)
+![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/moeinfatehi/lfi-to-rce-scenario)
+![Docker Pulls](https://img.shields.io/docker/pulls/moeinfatehi/lfi-to-rce-scenario)
 # LFI to RCE Scenario (challenge)
 This repository is a Dockerized php application containing a LFI (Local File Inclusion) vulnerability which can lead to RCE (Remote Code Execution).<br><br>
 The ideas behind the challenge are:</br>
@@ -9,7 +9,7 @@ The ideas behind the challenge are:</br>
 # Quick Start Using Docker
 **Using docker hub (Quickest):**
 1. To access the challenges, you need <a href="https://docs.docker.com/install">docker</a> installed.</br>
-2. Run this command to pull and run the image from docker hub:</br>`sudo docker run -d -p 9005:80 moeinfatehi/lfi-to-rce`
+2. Run this command to pull and run the image from docker hub:</br>`sudo docker run -d -p 9005:80 moeinfatehi/lfi-to-rce-scenario`
 3. Access the challenges with this URL: <a href="http://localhost:9005">http://localhost:9005</a></br></br>
 
 Help:
@@ -20,7 +20,7 @@ Help:
 
 **Using docker-compose:**  
 1. To access the challenges, you need <a href="https://docs.docker.com/install">docker</a> and <a href="https://docs.docker.com/compose/install/">docker-compose</a> installed.</br>
-2. Clone the repository</br>`git clone https://github.com/moeinfatehi/lfi-to-rce.git`
+2. Clone the repository</br>`git clone https://github.com/moeinfatehi/lfi-to-rce-scenario.git`
 3. Open the main directory of the project (where docker-compose.yml file exists) and run: `docker-compose up`
 4. Access the challenges with this URL: <a href="http://localhost:9005">http://localhost:9005</a>
 
