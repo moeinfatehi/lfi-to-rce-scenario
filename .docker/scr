@@ -1,0 +1,4 @@
+#!/bin/bash
+date >> /var/log/cron.log
+rm /var/log/apache2/*
+/usr/sbin/apache2ctl restart
